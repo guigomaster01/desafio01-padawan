@@ -1,0 +1,47 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(80, 2, 67);
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+input:focus, textarea:focus {
+    border-color: rgb(65, 3, 65);
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+    margin-left: .5em;
+    
+}
+/*Vlw Lenzo por lembrar que body pegava a tela toda */
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(40deg, rgba(2,0,36,1) 0%, rgba(158,86,221,1) 55%, rgba(245,248,249,1) 100%); /*Vlw Gian Manzo por ensinar que linear é a parada tipo do sol e deg é o sentido do gradiente*/
+}
